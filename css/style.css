@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 12rem;
+    text-align: center;
+    background-image: url(../img/Ferrovie-Gargano-new.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #721b32;
+}
+
+header h1 {
+    line-height: 5rem;
+    font-size: 3rem;
+}
+
+main {
+    height: calc(100vh - 12rem);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+main p {
+    margin: 2rem;
+}
+
+main h3 {
+    margin: 2rem;
+    font-size: 3rem;
+}
